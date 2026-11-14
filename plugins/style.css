@@ -1,0 +1,21 @@
+
+.avatar{
+	width: 70px;
+	height: 18%;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 40px);
+
+}
+.login-box button[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
