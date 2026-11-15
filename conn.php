@@ -1,7 +1,11 @@
 
 <?php 
 
-$conn = mysqli_connect("localhost","root","","water_billing_system");
+$conn = mysqli_connect(
+	"DATABASE_HOST",
+	"u682984824_va8Qg",
+	"@Zaki2526",
+	"u682984824_WMBVe");
 
 if (!$conn) {
 	die("Connection Error ".mysqli_connect_error());
